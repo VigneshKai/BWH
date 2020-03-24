@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>User Form</title>
+		<meta name="description" content="">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"> 		
+	</head>
+<body>
+
+	<header>
+		<h1>
+			Tell us something about you...
+		</h1>
+	</header>
+	
+	<br/>
+	<form action="html/formComp.html" method="get" id="form1">
+		<fieldset>
+	  		<legend>
+			  <h2>
+				User Information!
+			  </h2>
+			</legend>
+				<div class="control">
+					<label for="name">Full name:</label>
+					<input id="name" name="name" maxlength="30" type="text" placeholder="Your Full Name" autofocus required/>
+				</div>
+				
+				<div class="control">
+					<label for="address">Address:</label>
+					<textarea id="address" name="address"></textarea>
+				</div>
+				
+				<div class="control">
+					<label for="email_input">Email address:</label>
+					<input type="email" id="email_input" name="email_input" placeholder="Your Email" required>
+				</div>
+
+				<div class="control">
+					<label for="psw">Password:</label>
+					<input type="password" id="psw" name="psw" placeholder="Enter Password" required>
+				 </div>
+				
+				
+				<div class="birthdate">
+					<label for="birthdate">Birthday: </label>
+					<input type="date" value="1975-01-01" id="birthdate" name="birthdate" required/> 
+				 </div>
+				
+				<div class="control">
+					<label for="phone">Phone number:</label>
+					<input type="tel" id="phone" name="phone" pattern="[0-9]*" placeholder="Enter Your Phone Number" required> 
+				</div>
+				
+				<br/>
+			
+			<fieldset>
+			  <legend>Submit the form</legend>
+				<div class="centre">
+					<input class="submit_button" type="submit" value="Submit" />
+				</div>
+			</fieldset>
+	
+		</fieldset>
+
+	</form>
+	
+	<!-- 
+	<footer>
+		Not needed
+	</footer> -->
+
+</body>
+</html>
