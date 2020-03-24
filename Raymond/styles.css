@@ -1,0 +1,43 @@
+html{
+	background: #0D5257;
+	color: white;
+}
+
+header,
+	footer{
+		padding: 15px;
+		text-align: center;
+		background-color: #3D7579;
+}
+
+.bform{
+	width: 60%;
+	border: 15px;
+	padding: 50px;
+	margin: auto;
+}
+
+input[type=text],
+	input[type=password],
+		input[type=date] {
+	font-family: inherit;
+	font-size: 100%;
+	width: 100%;
+	border: 1px solid red;
+	padding: 15px;
+	margin: 8px;
+	border-radius: 4px;
+	background-color:#F5F5F5;
+}
+input[type=submit] {
+	width: 100%;
+	border: red;
+	padding: 15px;
+	cursor: pointer;
+	background-color: #3D7579;
+	color: white;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
