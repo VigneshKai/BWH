@@ -21,10 +21,13 @@ fieldset{
 	font-size: 15px;
 	color: black;
 	font-family: helvetica;
+
 }
 
+
+
 .personal{
-	font-size:20px;
+	font-size:25px
 	text-align:center-left;
 }
 
@@ -32,10 +35,11 @@ label{
     display:block;
     float: left;
     clear: left;
-    width: 200px;
-    text-align: right;
+    width: 110px;
+    text-align: left;
     margin-top: 10px;
-	padding-left:600px;
+	padding-left:740px;
+	
 }
 input{
   float: left;
