@@ -1,0 +1,73 @@
+/* main css*/
+body{
+  font-family: helvetica;
+  text-align: center;
+  font-size: 18px;
+  overflow: auto;
+  background-color: #f0f0f0;
+}
+	
+h1{
+  color :white;
+  font-size:25px;
+  background-color:black;
+  padding:25px;
+  
+}
+
+/* Main form css*/
+
+fieldset{
+	font-size: 15px;
+	color: black;
+	font-family: helvetica;
+}
+
+.personal{
+	font-size:20px;
+	text-align:center-left;
+}
+
+label{
+    display:block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+    margin-top: 10px;
+	padding-left:600px;
+}
+input{
+  float: left;
+  margin-top: 10px;
+
+}
+
+input[type=submit]{
+	font-size: 20px;
+	width: 100px;
+	float: right;
+	clear: both;
+	
+}
+
+input:hover{
+	background-color:#eaeae1;
+}
+
+input[type=submit]:hover {
+  background-color:#80ffff;
+}
+
+
+/* footer css*/
+footer{
+	font-size: 15px;
+	color :white;
+	background-color:black;
+	padding:5px;
+}
+
+
+
+
